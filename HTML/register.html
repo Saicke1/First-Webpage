@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar first -->
+
+    <div class="navbar">
+        <div class="posnavtext">
+            <a href="index.html">Home</a>
+            <a id="active" href="register.html">Registration</a>
+            <a href="special.html">Top 5 Travel Spots</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <img src="../pictures/PIN.png" alt="PIN" class="PIN">
+    </div>
+
+    <!-- The middle field -->
+
+    <div class="regis-middle">
+        <form action="confirmation.html">
+            <div class="regis-form1">
+                <h3>Please fill out the form to register</h3>
+                <div class="regis-form2">
+                    <div class="regis-form2-0">
+                        <input type="radio" name="gender" id="female" value="Female" required>
+                        <label for="female">female</label>
+                        <input type="radio" name="gender" id="male" value="Male">
+                        <label for="male">male</label>
+                        <input type="radio" name="gender" id="diverse" value="Diverse">
+                        <label for="diverse">diverse</label>
+                    </div>
+                    <div class="regis-form2-1">
+                        <label>First Name</label>
+                        <div class="regis-form2-2">
+                            <input class="input-regis" required>
+                        </div>
+                    </div>
+                    <div class="regis-form2-1">
+                        <label>Last Name</label>
+                        <div class="regis-form2-2">
+                            <input class="input-regis" required>
+                        </div>
+                    </div>
+                    <div class="regis-form2-1">
+                        <label>E-Mail Address</label>
+                        <div class="regis-form2-2">
+                            <input class="input-regis" required>
+                        </div>
+                    </div>
+                    <div class="regis-form2-1">
+                        <label>How did you find us?</label>
+                        <div class="regis-form2-2">
+                            <select name="find" id="find">
+                                <option value="choose">No Answer</option>
+                                <option value="advertisement">Advertisement</option>
+                                <option value="FandF">Friends and Family</option>
+                                <option value="Sarah">From Sarah</option>
+                                <option value="CAB">Code Academy Berlin</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="regis-form2-1">
+                        <div class="checkbox">
+                            <input type="checkbox" class="input-check" required>
+                        </div>
+                        <div class="regis-form2-3">
+                            <label>I accept the terms and conditions</label>
+                        </div>
+                    </div>
+                </div>
+                <button class="regis-button">Register Now!</button>
+            </div>
+        </form>
+        <div class="regis-pic1">
+            <img src="../pictures/regis.png" alt="Registration" class="regis-pic2">
+        </div>
+    </div>
+
+    <!-- Footer: below everything! -->
+
+    <div class="footer">
+        <img src="../pictures/PIN2.png" alt="PIN2" class="footer-pic">
+        <div class="title-foot">
+            <h3>We Live For Travel</h3>
+        </div>
+        <p class="footertext">
+            Not Satisfied yet?<br/>
+            Check this out!
+        </p>
+        <p>Sarah Manicke © 2022</p>
+    </div>
+
+</body>
+
+</html>
